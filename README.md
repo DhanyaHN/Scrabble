@@ -1,9 +1,11 @@
 # Scrabble
 
-This code pass through the whole dictionary for each run of the code
+Given a rack of tiles, suggest a word with maximum score.
 
-sort words inside it according to the rank
+This code pass through the whole dictionary for each run of the code.
 
-then compare from top to bottom with each word can be made by the charecters in the hand.
+Sort the dictionary according to the score of each word.
 
-returns the list of possible words rank wise
+Read dictionary from top to bottom to find words that can be made with the charecters in the rack.
+
+Return the list of possible words rank wise.
